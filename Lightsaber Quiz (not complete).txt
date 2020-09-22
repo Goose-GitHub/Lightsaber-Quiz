@@ -1,0 +1,42 @@
+print("Let's decide the color of your lightsaber! What color group do you like best?\n")
+print("Type 1 for Red, Orange, Yellow")
+print("Type 2 for Blue, Green, Teal")
+print("Type 3 for Black, Silver, Grey")
+print("Type 4 for Purple, Pink, Indigo\n")
+color_response = input("Type 1, 2, 3, or 4\n")
+if(color_response == "1"):
+    print("Ah! So you like fierce colors? Okay... Out of red, orange, and yellow, what do you like best? Type 1 for red, 2 for orange, and 3 for yellow\n")
+color_response_1 = input("")
+if(color_response_1 == "1"):
+    print("You would wield a red lightsaber! Sith much?")
+elif(color_response_1 == "2"):
+    print("You would wield an orange lightsaber! Very annoying!")
+elif(color_response_1 == "3"):
+    print("You would wield a yellow lightsaber! Gold digger!")
+elif(color_response == "2"):
+    print("Okay... You you like to vibe. If you had to pick just blue, green, or teal, what would it be? Type 1 for blue, type 2 for green, type 3 for teal\n")
+elif(color_response_2 == "1"):
+    color_response_2 == input("")
+    print("You would wield a blue lightsaber! Classic good guy!")
+elif(color_reponse_2 == "2"):
+    print("You would wield a green lightsaber! Money!")
+if(color_response_2 == "3"):
+    print("You would wield a teal lightsaber! My personal favorite!")
+if(color_response == "3"):
+    print("The oddball colors... Interesting choice... Now is it black, silver, or grey? Type 1 for black, 2 for silver, or 3 for grey\n")
+color_response_3 == input("")
+if(color_response_3 == "1"):
+    print("You would wield a black lightsaber! The choice of the Mandalorians aka the Darksaber")
+if(color_response_3 == "2"):
+    print("You would wield a silver lightsaber! Keep the vampires and werewolves at bay!")
+if(color_response_3 == "3"):
+    print("You would wield a grey lightsaber! Black is too dark, but silver is too sparkly? Grey is for you!")
+if(color_response == "4"):
+    print("You like to stand out in a crowd. Or you just like Mace Windu a lot. Let's break it down... Type 1 for purple, type 2 for pink, or type 3 for indigo\n")
+color_response_4 == input("")
+if(color_response_4 == "1"):
+    print("You would wield a purple lightsaber! Can never go wrong with purple!")
+if(color_response_4 == "2"):
+    print("You would wield a pink lightsaber! You are a fuzzy, foxy kind of person who doesn't really care for the Star Wars lore. You do you.")
+if(color_response_4 == "3"):
+    print("You would wield an indigo lightsaber! You are a smooth operator who prefers the vibrant purple but respects some hues of blue.")
